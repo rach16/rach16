@@ -2,7 +2,7 @@
 
 **Senior Software Engineer in Test** 🛠️
 
-9+ years designing automation frameworks and test strategy for distributed, event-driven systems on AWS. I treat test tooling as production software — because that's what it is when a whole team depends on it — and I build functional, performance, and resiliency automation directly into CI/CD. **714 pull requests authored, 584 merged, 1,186 reviewed, across 56 repositories.**
+9+ years designing automation frameworks and test strategy for distributed, event-driven systems on AWS. I treat test tooling as production software — because that's what it is when a whole team depends on it — and I build functional, performance, and resiliency automation directly into CI/CD.
 
 🔎 **Open to work** — Senior SDET · Test Infrastructure · Quality Platform · Developer Experience · Platform Engineering
 
