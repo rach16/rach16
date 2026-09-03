@@ -1,30 +1,35 @@
 # Hi, I'm Rachana 👋
 
-**Software Engineer in Test → Forward Deployed Engineer** 🛠️ → 🚀
+**Senior Software Engineer in Test, working my way toward Forward Deployed Engineer** 🛠️ → 🚀
 
 I take AI systems from prototype to something a team can actually depend on.
 
-9+ years building quality engineering and test infrastructure for distributed, event-driven systems on AWS, now applied to LLM systems: evaluation, guardrails, agent orchestration, and the release gates that make AI changes safe to ship. Forward-deployed work is where that lands — sitting with the people who have the problem, building the thing end to end, and owning it into production. The part most AI projects skip is the part I've done for a decade.
+I've spent 9+ years building quality engineering and test infrastructure for distributed, event-driven systems on AWS. For the last while I've been pointing that at LLM systems instead: evaluation, guardrails, agent orchestration, and the release gates that make AI changes safe to ship. The part most AI projects skip is the part I've been doing for a decade.
 
-🔎 **Open to work** — Forward Deployed Engineer · AI Solutions Engineer · Applied AI · Platform / Developer Experience
+The honest version: I'm mid-transition. FDE work is where I want to end up, because it's the same instinct I've always had (go sit with the people who have the problem, build the thing end to end, own it into production) just pointed at a different job title. I'm building toward it in public, and the projects below are where that work shows up.
+
+🔎 **Open to work**
+
+- 🚀 Forward Deployed Engineer, AI Solutions Engineer, Applied AI. This is the direction I'm actively building toward.
+- 🧪 Senior SDET, Test Infrastructure, Quality Platform, Developer Experience. Still very much open to these, and still very good at them.
 
 ---
 
 ## 🚢 Shipped
 
-### 📊 ChurnGuard-AI — RAG + survival analysis for B2B churn
+### 📊 ChurnGuard-AI: RAG + survival analysis for B2B churn
 
 dbt warehouse, Qdrant retrieval over 771 documents, LangGraph agents, DuckDB locally and S3/Athena in production. AUC 0.877 for churn ranking, 0.791 on actual churners.
 
 The README is the point. It retracts a previously claimed 94.7% accuracy and explains why the number was wrong, lists the 196-day date-prediction error and non-stationary hazard rates as open gaps, and backs every surviving claim with 52 dbt tests, 28 dataset validation checks, and reproducible retrieval benchmarks across 8 ADRs. Anyone can ship a demo that looks good. Deployed work needs someone who will tell you which half doesn't work yet.
 
-### 🔎 Multi-agent RAG platform — five retrieval strategies, measured against each other
+### 🔎 Multi-agent RAG platform: five retrieval strategies, measured against each other
 
 FastAPI, LangChain and LangGraph, Qdrant, Next.js, Docker Compose. Dual-team agent architecture with five sub-agents, RAGAS evaluation, and synthetic data generation for baselines. Built to compare retrieval approaches on evidence rather than pick one and hope.
 
 ### 🛠️ Next up
 
-Forward-deployed style projects: customer-shaped problems solved end to end, with a real deploy path and evals that gate it. Shipping over the coming months — this section will keep growing.
+More forward-deployed style projects: customer-shaped problems solved end to end, with a real deploy path and evals that gate it. I'm shipping these over the coming months, so this section should keep growing.
 
 ---
 
@@ -32,7 +37,7 @@ Forward-deployed style projects: customer-shaped problems solved end to end, wit
 
 🧪 **I make AI systems provable.** Golden sets, retrieval measured separately from generation so failures can be attributed to a stage, negative tests that verify refusal rather than fabrication, and thresholds wired into CI so a regression blocks a release instead of surfacing in front of a user.
 
-🎯 **I build for someone specific, not for a spec.** Everything I've shipped had real consumers on the other side — versioned, reviewed, released on a cadence, and designed to be maintained by someone other than me. Getting other teams to actually adopt it is a people problem as much as an engineering one.
+🎯 **I build for someone specific, not for a spec.** Everything I've shipped had real consumers on the other side: versioned, reviewed, released on a cadence, and designed to be maintained by someone other than me. Getting other teams to actually adopt it is a people problem as much as an engineering one.
 
 🚀 **I own the deploy path.** Kubernetes, Terraform, GitOps, GitHub Actions. Building the thing is half the job. Making it run on every deploy, report somewhere people actually look, and gate a release is the other half, and I don't hand that off.
 
@@ -103,3 +108,5 @@ Forward-deployed style projects: customer-shaped problems solved end to end, wit
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/rachana-banik)
 - 📫 r.banik16@gmail.com
+
+If you're hiring for either track, or you just want to talk about how to test a system that doesn't give the same answer twice, I'd like to hear from you.
