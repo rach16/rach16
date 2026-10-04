@@ -4,7 +4,7 @@
 
 I take AI systems from prototype to something a team can actually depend on.
 
-I've spent 9+ years building quality engineering and test infrastructure for distributed, event-driven systems on AWS. For the last while I've been pointing that at LLM systems instead: evaluation, guardrails, agent orchestration, and the release gates that make AI changes safe to ship. The part most AI projects skip is the part I've been doing for a decade.
+I've spent 7+ years building quality engineering and test infrastructure for distributed, event-driven systems on AWS. For the last while I've been pointing that at LLM systems instead: evaluation, guardrails, agent orchestration, and the release gates that make AI changes safe to ship. The part most AI projects skip is the part I've been doing for a decade.
 
 The honest version: I'm mid-transition. FDE work is where I want to end up, because it's the same instinct I've always had (go sit with the people who have the problem, build the thing end to end, own it into production) just pointed at a different job title. I'm building toward it in public, and the projects below are where that work shows up.
 
